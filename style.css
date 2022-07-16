@@ -33,7 +33,7 @@ h1 {
   justify-content: center;
 }
 body {
-  background: url(img/bg.png) repeat fixed black;
+  background: url(bg.png) repeat fixed black;
   animation: change-background 2s linear infinite;
   min-height: 100vh;
   display: flex;
@@ -43,7 +43,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #33cc34;
+  background-color: #8c0606;
 }
 header .logo {
   cursor: pointer;
@@ -78,7 +78,7 @@ header .navigation li {
   display: flex;
   align-items: center;
   padding: 1.5vmin;
-  background-color: #2cb22d;
+  background-color: #d60202;
   border-radius: 1vmin;
   cursor: pointer;
   transition-duration: 0.3s;
@@ -94,7 +94,7 @@ header .navigation .material-icons {
 header .ads {
   transform: scale(0);
   animation: bounce-in 1s ease-in-out 2s 1 normal both;
-  background-color: #2DB4B4;
+  background-color: #fc0043;
   border-radius: 2vmin;
   padding: 0.5vmax;
   font-size: 1.5vmax;
